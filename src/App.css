@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Improved Card Styles */
+.card {
+  padding: 1.5em;
+  margin: 1em;
+  border-radius: 12px;
+  background: #1a1a1a;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(100, 108, 255, 0.3);
+  border-color: #646cff;
+}
+
+/* Album Image Styles */
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* Album Title Styles */
+.card h3 {
+  margin: 0.5em 0;
+  color: white;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Artist Name Styles */
+.card p {
+  margin: 0;
+  color: #888;
+  font-size: 0.9em;
+}
+
+/* Spotify Link Styles */
+.card a {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background: #1DB954; /* Spotify green */
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.card:hover a {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Grid Layout for Cards */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2em;
+  padding: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}
