@@ -73,7 +73,7 @@ npm start
 
 ## 🙏 **Special Thanks**  
 
-Huge shoutout to **[Ellie](https://github.com/ellie)** for the fantastic tutorial!  
+Huge shoutout to **[Ellie](https://github.com/exrlla)** for the fantastic tutorial!  
 
 > *"Curriculum Developer, teaching you how to move colorful pixels! ✧･ﾟ: *✧･ﾟ:*"*  
 > **Chicago, IL** | **@ Codédex**  
