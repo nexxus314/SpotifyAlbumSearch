@@ -37,8 +37,8 @@ A **vibrant** React app that lets you search for your favorite artists and explo
 
 ### **1. Clone the Repo**  
 ```bash
-git clone https://github.com/your-username/spotify-album-search.git
-cd spotify-album-search
+git clone https://github.com/nexxus314/SpotifyAlbumSearch.git
+cd SpotifyAlbumSearch
 ```
 
 ### **2. Install Dependencies**  
